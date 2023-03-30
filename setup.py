@@ -20,7 +20,7 @@ setup(
     keywords=['python', 'resume', 'sid', 'siddhesh kulthe', 'profile', 'CV'],
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers, Recruiters",
+        "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
