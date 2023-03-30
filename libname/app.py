@@ -1,6 +1,6 @@
 import webbrowser
 import time
-import smtplib
+import requests
 
 URL = "https://linkedin.com/in/siddheshkulthe"
 recipient_email = "siddheshkulthe43@gmail.com"
@@ -8,7 +8,23 @@ recipient_email = "siddheshkulthe43@gmail.com"
 social_list = []
 
 def Send_Message():
-    pass
+    # Define the message to send
+    message = "Hello, this is a message sent from Python!"
+
+    # Define the URL of your Vercel app's endpoint
+    vercel_url = "https://your-vercel-app.vercel.app/api/send-email"
+
+    # Define the data to send in the POST request
+    data = {"message": message}
+
+    # Make the HTTP POST request to your Vercel app's endpoint
+    response = requests.post(vercel_url, json=data)
+
+    # Check the response status code
+    if response.status_code == 200:
+        print("Message sent successfully!")
+    else:
+        print("Error sending message.")
 
 
 def Start():
