@@ -9,7 +9,7 @@ social_list = []
 
 def send_message():
     message = str(input("Enter your message: "))
-    vercel_url = "http://192.168.0.107:5000"
+    vercel_url = "http://34.207.83.162:5000"
     data = {"message": message}
 
     # Make the HTTP POST request to your Vercel app's endpoint
