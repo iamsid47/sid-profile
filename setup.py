@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.7'
 DESCRIPTION = 'Check out Siddhesh Kulthe\'s profile, or send him a direct message!'
 LONG_DESCRIPTION = 'A package that downloads Siddhesh Kulthe\'s Resume on your computer. All you need to do is to import siddhesh and use .Start() method to start the app!'
 

@@ -1,7 +1,0 @@
-setup.py
-libname/__init__.py
-libname/app.py
-sid_profile.egg-info/PKG-INFO
-sid_profile.egg-info/SOURCES.txt
-sid_profile.egg-info/dependency_links.txt
-sid_profile.egg-info/top_level.txt
