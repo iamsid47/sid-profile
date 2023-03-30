@@ -7,9 +7,9 @@ recipient_email = "siddheshkulthe43@gmail.com"
 
 social_list = []
 
-def send_message():
+def send_message(self):
     message = str(input("Enter your message: "))
-    vercel_url = "http://192.168.0.107:5000"
+    vercel_url = "http://34.207.83.162:5000"
     data = {"message": message}
 
     # Make the HTTP POST request to your Vercel app's endpoint
@@ -21,7 +21,7 @@ def send_message():
         print("Error sending message.")
 
 
-def start():
+def start(self):
     print("Do you want to make a")
     choice = int(input("1. Send Siddhesh A Message \n2. Check out Siddhesh\'s LinkedIn \nEnter (1/2): "))
     if choice == 1:
