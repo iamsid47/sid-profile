@@ -1,8 +1,6 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-VERSION = '0.0.7'
+VERSION = '0.0.8'
 DESCRIPTION = 'Check out Siddhesh Kulthe\'s profile, or send him a direct message!'
 LONG_DESCRIPTION = 'A package that downloads Siddhesh Kulthe\'s Resume on your computer. All you need to do is to import siddhesh and use .Start() method to start the app!'
 
@@ -11,7 +9,7 @@ setup(
     name="siddhesh",
     version=VERSION,
     author="Siddhesh Kulthe",
-    author_email="<siddheshkulthe43@gmail.com>",
+    author_email="siddheshkulthe43@gmail.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
