@@ -1,4 +1,5 @@
 LICENSE
+README.md
 setup.py
 siddhesh/__init__.py
 siddhesh.egg-info/PKG-INFO

@@ -22,7 +22,10 @@ def send_message():
 
 
 def start():
-    print("Do you want to make a")
+    print("Hey yo! Nice to meet you :)")
+    time.sleep(1)
+    print("What would you like to do?\n")
+    time.sleep(1)
     choice = int(input("1. Send Siddhesh A Message \n2. Check out Siddhesh\'s LinkedIn \nEnter (1/2): "))
     if choice == 1:
         send_message()
