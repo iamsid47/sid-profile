@@ -9,8 +9,13 @@ social_list = []
 
 def send_message():
     message = str(input("Enter your message: "))
+    print("...")
+    time.sleep(1)
+    print("Just so that Siddhesh can get back to you,")
+    time.sleep(1)
+    email = str(input("Please enter your email:"))
     vercel_url = "http://34.207.83.162:5000"
-    data = {"message": message}
+    data = {"message": message, "email" : email}
 
     # Make the HTTP POST request to your Vercel app's endpoint
     response = requests.post(vercel_url, json=data)

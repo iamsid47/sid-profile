@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-siddhesh/__init__.py
-siddhesh.egg-info/PKG-INFO
-siddhesh.egg-info/SOURCES.txt
-siddhesh.egg-info/dependency_links.txt
-siddhesh.egg-info/requires.txt
-siddhesh.egg-info/top_level.txt
